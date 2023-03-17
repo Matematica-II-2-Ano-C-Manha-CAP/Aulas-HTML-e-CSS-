@@ -1,0 +1,44 @@
+AULA 02 - ARQUIVO HTML- INDEX.HTML
+
+<!DOCTYPE html>
+ <html lang="pt-br"> <!-- lingua do arquivo, mudamos para português -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styde.css"> <!-- tag para adicionar o arquivo CSS, o nome desse arquivo tem que ser mencionado nos comandos rel="" e href="" -->
+</head>
+<body>
+    <header class="cabecalho"> <!-- tag class paa organizar os elementos, nomear cada um e poder fazer configurações específicas -->
+    <img class="cabecalho-imagem" src="./img/R.png" alt="informacao sobre a imagem"> 
+    <ul class="cabecalho-lista-item"> 
+        <li class="cabecalho-lista-item">Frutas</li> 
+        <li class="cabecalho-lista-item">Tomate</li>
+    </ul>
+</header>
+    <h1>esse e um titulo</h1> <!-- tg para criar um título, caso precise criar subtítulos usar a tag h2, h3 e assim por diante -->
+    <p>esse e um paragrafo </p> <!-- tag para criar um parágrafo e adicionar textos -->
+</body>
+</html>
+
+-----------------------------------------------------------------------------------------------------------
+
+AULA 02 - ARQUIVO CSS- STYDE.CSS
+
+*{ margin: 0 8px; padding: 8px 0;}
+/* tag para definir um comando para todos os elementos do aquivo *{} */
+body{background-color: aqua; color: white;} 
+/* comando para definir a cor do site e as cores dos texto */
+.cabecalho{background-color: black; color: brown;display: flex; justify-content: space-around;}
+/* novo comando para mudar apenas a cor do cabeçalho do site */
+/* display:flex  posiciona o texto ao lado da imagem*/
+/* justify- content significa justificar o conteúdo e a opção que escolhemos vai justificar margem iguais para elementos de uma mesma linha */
+.cabecalho-imagem{width: 10%;}
+/* novo comando para mudar o tamanho da imagem usando a tag class */
+.cabecalho-lista-item{display: inline-block;margin: 0 24px; padding: 16px 0;font-size: 24px;}
+/* display:inline-block tag que define que o elemento ocupe espaço suficiente para ser exibido*/
+/* margin espaçamento nas margens da página */
+/* padding espaçamento entre elementos, "linhas" */
+/* font-size: muda o tamanho da fonte do texto */
+
