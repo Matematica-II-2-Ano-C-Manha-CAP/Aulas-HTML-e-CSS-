@@ -1,0 +1,7 @@
+body{background-image: radial-gradient(circle,#40011E,#260112,#390640,#5D1073,#531B8C );}
+.titulo-rodape{color:white; font-size: 60px;text-align: center;}
+.todas-as-luas{display: grid;grid-template-columns: 20% 20% 20% 20%;}
+/* tag display grid divide a organização em colunas de tamanhos especificos, para isso tem que ser adicionada a tag grid-templade-columns logo em seguida para demarcar o espaço de cada elemento */
+.elementos-lua{text-align: center;}
+/* text-aligm alimento de texto ou elementos */
+.imagem-lua{width: 50%;}
